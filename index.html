@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ming's Diner</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="tabs.css">
+</head>
+<body>
+    <main>
+        <section id="landing-page">
+            <div class="nav-slider">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <header class="title-background">
+                <h2 class="title">Ming's Diner</h2>
+            </header>
+        </section>
+
+        <section class="nav-slider-section">
+            <button class="close-nav-slider">X</button>
+            <section class="nav-links-container">
+                <ul>
+                    <li><a class="nav-links" href="#menu">Menu</a></li>
+                    <li><a class="nav-links" href="#restaurant-info">Restauarant Information</a></li>
+                </ul>
+            </section>
+        </section>
+
+        <section id="menu">
+            <h2 class="menu-title">Menu</h2>
+            <section class="tabs-container">
+                <section class="tabs">
+                    <button class="tabHeader active-tab" data-tab="1">Plates</button>
+                    <button class="tabHeader" data-tab="2">Drinks</button>
+                    <button class="tabHeader" data-tab="3">Appetizers</button>
+                    <button class="tabHeader" data-tab="4">Desserts</button>
+                </section>
+                
+                <section id="tabSection-1" class="tabSection show-tab">
+                    <p>1. Sesame Chicken<span class="menu-price">$11.00</span></p>
+                    <p>2. Lemon Chicken<span class="menu-price">$6.00</span></p>
+                    <p>3. Shrimp Fried Rice<span class="menu-price">$7.00</span></p>
+                    <p>4. Beef & Broccoli<span class="menu-price">$8.00</span></p>
+                </section>
+                <section id="tabSection-2" class="tabSection hide-tab">
+                    <p>1. Martini<span class="menu-price">$10.00</span></p>
+                    <p>2. Sangria<span class="menu-price">$8.00</span></p>
+                    <p>3. Cocktail<span class="menu-price">$7.00</span></p>
+                    <p>4. Tequila Sunrise<span class="menu-price">$8.00</span></p>
+                </section>
+                <section id="tabSection-3" class="tabSection hide-tab">
+                    <p>1. Calamari<span class="menu-price">$12.00</span></p>
+                    <p>2. Crab Rangoons<span class="menu-price">$6.00</span></p>
+                    <p>3. Wonton Soup<span class="menu-price">$4.00</span></p>
+                    <p>4. Miso Soup<span class="menu-price">$5.00</span></p>
+                </section>
+                <section id="tabSection-4" class="tabSection hide-tab">
+                    <p>1. Brownie<span class="menu-price">$6.00</span></p>
+                    <p>2. Cheesecake<span class="menu-price">$8.00</span></p>
+                </section>
+            </section>
+        </section>
+
+        <section id="restaurant-info">
+            <section class="info-container">
+            <section class="address-content">
+                <h2 class="restaurant-info-title">Address</h2>
+                <p class="address">1234 Ming Avenue</p>
+                <p class="address">San Antonio, Texas</p>
+            </section>
+            <section class="business-hours">
+                <h2 class="restaurant-info-title">Buisness Hours</h2>
+                <p class="hours">Sunday-Thursday: 11am-9pm</p>
+                <p class="hours">Friday-Saturday: 3pm-12am</p>
+            </section>
+            <section class="contact-content">
+                <h2 class="restaurant-info-title">Phone Number</h2>
+                <p class="phone">Call us: 123-123-1234</p>
+            </section>
+        </section>
+
+    </section>
+    </main>   
+
+    <script src="main.js"></script>
+    <script src="tabs.js"></script>
+</body>
+</html>
